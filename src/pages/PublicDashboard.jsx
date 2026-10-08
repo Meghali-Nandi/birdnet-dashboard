@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from "react"
-
+import { useNavigate } from "react-router-dom"
 import Papa from "papaparse"
 
 import {
@@ -47,7 +47,18 @@ import {
   UserRound
 } from "lucide-react"
 
+const navigate = useNavigate()
 
+const ADMIN_URL = import.meta.env.VITE_ADMIN_URL
+
+const handleAdminLogin = () => {
+  if (ADMIN_URL) {
+    window.location.assign(ADMIN_URL)
+    return
+  }
+
+  navigate("/login")
+}
 
 const CLASS_META = {
 
@@ -1087,11 +1098,12 @@ export default function PublicDashboard() {
 
           type="button"
 
-          onClick={() =>
+          // onClick={() =>
 
-            window.location.assign(ADMIN_URL)
+          //   window.location.assign(ADMIN_URL)
 
-          }
+          // }
+          onClick={handleAdminLogin}
 
           className="flex items-center gap-2 rounded-xl bg-[#FFD400] px-4 py-2.5 text-sm font-bold text-slate-950 shadow-sm transition hover:bg-yellow-300"
 
