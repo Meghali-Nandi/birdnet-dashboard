@@ -407,7 +407,7 @@ export default function PublicDashboard() {
 
 
 
-  const ADMIN_URL = import.meta.env.VITE_ADMIN_URL || "https://localhost:8888/login"
+  const ADMIN_URL = import.meta.env.VITE_ADMIN_URL || "http://localhost:5173/login"
 
 
 

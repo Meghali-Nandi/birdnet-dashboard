@@ -7,7 +7,7 @@ import { ResponsiveLine } from '@nivo/line';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiRefreshCcw, FiSearch } from 'react-icons/fi';
 
-const SERVERS = [{ id: 'srvA', name: 'Field Server', baseUrl: 'http://100.85.146.73:8888' }];
+const SERVERS = [{ id: 'srvA', name: 'Field Server', baseUrl: 'http://100.85.146.73:5173' }];
 const YEARS = [2025];
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const MIN_MAX_COLORS = ['#ffffff', '#FEDC00'];

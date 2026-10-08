@@ -3,7 +3,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 import axiosInstance from '../api';
 import { useLoader } from '../stores/useLoader';
 
-const SERVERS = [{ id: 'srvA', name: 'Field Server', baseUrl: 'http://100.85.146.73:8888' }];
+const SERVERS = [{ id: 'srvA', name: 'Field Server', baseUrl: 'http://100.85.146.73:5173' }];
 
 export default function Recordings() {
   const [serverIdx, setServerIdx] = useState(0);

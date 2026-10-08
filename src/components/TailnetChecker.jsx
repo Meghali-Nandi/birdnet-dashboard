@@ -7,19 +7,28 @@ const TailnetChecker = () => {
   const [info, setInfo] = useState(null);
 
   useEffect(() => {
-    console.log(BACKEND_URL);
-    fetch(`${BACKEND_URL}auth/tailscale_check`, { signal: AbortSignal.timeout(3000) })
-      .then((res) => res.json())
-      .then((data) => {
-        setStatus('connected');
-        setInfo(data);
-      })
-      .catch((error) => {
-        console.error('Error fetching Tailnet info:', error);
-        console.error('Error connecting to Tailnet device');
-        setStatus('not_connected');
-      });
-  }, []);
+  console.log(BACKEND_URL)
+
+  fetch(`${BACKEND_URL}/auth/tailscale_check`, {
+    signal: AbortSignal.timeout(3000),
+    credentials: 'include',
+  })
+    .then((res) => {
+      if (!res.ok) {
+        throw new Error(`HTTP ${res.status}`)
+      }
+
+      return res.json()
+    })
+    .then((data) => {
+      setStatus('connected')
+      setInfo(data)
+    })
+    .catch((error) => {
+      console.error('Error fetching Tailnet info:', error)
+      setStatus('not_connected')
+    })
+}, []);
 
   if (status === 'checking') {
     return <p>🔍 Checking TailScale connection...</p>;
