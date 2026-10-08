@@ -1,0 +1,5 @@
+ts,device,class,species,confidence
+2026-10-08T00:05:12Z,pi2,Bird,Australian Magpie,0.91
+2026-10-08T00:18:43Z,pi6,Mammal,Grey-headed Flying Fox,0.87
+2026-10-08T02:37:20Z,pi6,Amphibian,Common Eastern Froglet,0.81
+2026-10-08T03:52:48Z,pi6,Insect,Cicada,0.79

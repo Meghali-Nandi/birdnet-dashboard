@@ -1,0 +1,89 @@
+ts,device,class,species,confidence
+2026-10-08T00:05:12Z,pi2,Bird,Australian Magpie,0.91
+2026-10-08T00:18:43Z,pi6,Mammal,Grey-headed Flying Fox,0.87
+2026-10-08T00:42:10Z,pi2,Bird,Noisy Miner,0.84
+2026-10-08T01:07:21Z,pi6,Bird,Sulphur-crested Cockatoo,0.95
+2026-10-08T01:26:33Z,pi2,Mammal,Common Brushtail Possum,0.82
+2026-10-08T01:49:08Z,pi6,Bird,Rainbow Lorikeet,0.90
+2026-10-08T02:11:55Z,pi2,Bird,Australian Magpie,0.89
+2026-10-08T02:37:20Z,pi6,Amphibian,Common Eastern Froglet,0.81
+2026-10-08T02:53:44Z,pi2,Bird,Laughing Kookaburra,0.88
+2026-10-08T03:04:19Z,pi6,Mammal,Grey-headed Flying Fox,0.86
+2026-10-08T03:31:02Z,pi2,Bird,Superb Fairywren,0.93
+2026-10-08T03:52:48Z,pi6,Insect,Cicada,0.79
+2026-10-08T04:13:36Z,pi2,Bird,Rainbow Lorikeet,0.92
+2026-10-08T04:28:17Z,pi6,Bird,Australian Magpie,0.90
+2026-10-08T04:57:05Z,pi2,Mammal,Common Brushtail Possum,0.85
+2026-10-08T05:08:24Z,pi6,Bird,Sulphur-crested Cockatoo,0.96
+2026-10-08T05:21:49Z,pi2,Bird,Noisy Miner,0.88
+2026-10-08T05:46:15Z,pi6,Bird,Laughing Kookaburra,0.91
+2026-10-08T06:03:11Z,pi2,Bird,Superb Fairywren,0.94
+2026-10-08T06:15:27Z,pi6,Bird,Rainbow Lorikeet,0.93
+2026-10-08T06:32:52Z,pi2,Bird,Australian Magpie,0.92
+2026-10-08T06:47:18Z,pi6,Insect,Cicada,0.80
+2026-10-08T07:01:40Z,pi2,Bird,Sulphur-crested Cockatoo,0.95
+2026-10-08T07:18:23Z,pi6,Bird,Noisy Miner,0.89
+2026-10-08T07:29:54Z,pi2,Bird,Rainbow Lorikeet,0.90
+2026-10-08T07:44:09Z,pi6,Mammal,Grey-headed Flying Fox,0.83
+2026-10-08T08:02:14Z,pi2,Bird,Sulphur-crested Cockatoo,0.94
+2026-10-08T08:05:37Z,pi6,Bird,Australian Magpie,0.91
+2026-10-08T08:11:02Z,pi2,Bird,Rainbow Lorikeet,0.88
+2026-10-08T08:18:45Z,pi6,Mammal,Common Brushtail Possum,0.86
+2026-10-08T08:24:19Z,pi2,Bird,Superb Fairywren,0.93
+2026-10-08T08:31:08Z,pi6,Mammal,Grey-headed Flying Fox,0.90
+2026-10-08T08:39:51Z,pi2,Bird,Australian Magpie,0.89
+2026-10-08T08:47:26Z,pi6,Bird,Rainbow Lorikeet,0.92
+2026-10-08T08:53:10Z,pi2,Bird,Noisy Miner,0.84
+2026-10-08T09:01:43Z,pi6,Bird,Sulphur-crested Cockatoo,0.95
+2026-10-08T09:08:22Z,pi2,Bird,Laughing Kookaburra,0.87
+2026-10-08T09:15:06Z,pi6,Bird,Superb Fairywren,0.90
+2026-10-08T09:27:18Z,pi2,Amphibian,Common Eastern Froglet,0.82
+2026-10-08T09:41:33Z,pi6,Bird,Australian Magpie,0.93
+2026-10-08T10:03:27Z,pi2,Bird,Rainbow Lorikeet,0.91
+2026-10-08T10:19:46Z,pi6,Bird,Noisy Miner,0.88
+2026-10-08T10:36:12Z,pi2,Mammal,Common Brushtail Possum,0.84
+2026-10-08T10:52:58Z,pi6,Bird,Sulphur-crested Cockatoo,0.96
+2026-10-08T11:06:34Z,pi2,Bird,Australian Magpie,0.92
+2026-10-08T11:22:49Z,pi6,Bird,Superb Fairywren,0.90
+2026-10-08T11:38:11Z,pi2,Insect,Cicada,0.78
+2026-10-08T11:55:26Z,pi6,Bird,Laughing Kookaburra,0.89
+2026-10-08T12:04:17Z,pi2,Bird,Rainbow Lorikeet,0.93
+2026-10-08T12:21:44Z,pi6,Mammal,Grey-headed Flying Fox,0.88
+2026-10-08T12:37:55Z,pi2,Bird,Noisy Miner,0.86
+2026-10-08T12:49:31Z,pi6,Bird,Australian Magpie,0.94
+2026-10-08T13:07:08Z,pi2,Bird,Sulphur-crested Cockatoo,0.95
+2026-10-08T13:25:42Z,pi6,Bird,Superb Fairywren,0.91
+2026-10-08T13:44:19Z,pi2,Mammal,Common Brushtail Possum,0.83
+2026-10-08T14:02:51Z,pi6,Bird,Rainbow Lorikeet,0.92
+2026-10-08T14:18:33Z,pi2,Bird,Australian Magpie,0.90
+2026-10-08T14:36:47Z,pi6,Amphibian,Common Eastern Froglet,0.80
+2026-10-08T14:53:12Z,pi2,Bird,Laughing Kookaburra,0.88
+2026-10-08T15:05:28Z,pi6,Bird,Noisy Miner,0.89
+2026-10-08T15:24:06Z,pi2,Bird,Sulphur-crested Cockatoo,0.96
+2026-10-08T15:41:17Z,pi6,Bird,Rainbow Lorikeet,0.91
+2026-10-08T15:58:39Z,pi2,Mammal,Grey-headed Flying Fox,0.85
+2026-10-08T16:10:05Z,pi6,Bird,Australian Magpie,0.93
+2026-10-08T16:28:44Z,pi2,Bird,Superb Fairywren,0.92
+2026-10-08T16:47:16Z,pi6,Insect,Cicada,0.79
+2026-10-08T17:03:31Z,pi2,Bird,Rainbow Lorikeet,0.94
+2026-10-08T17:19:52Z,pi6,Bird,Sulphur-crested Cockatoo,0.95
+2026-10-08T17:38:27Z,pi2,Mammal,Common Brushtail Possum,0.86
+2026-10-08T17:55:44Z,pi6,Bird,Noisy Miner,0.87
+2026-10-08T18:08:12Z,pi2,Bird,Australian Magpie,0.92
+2026-10-08T18:26:58Z,pi6,Bird,Laughing Kookaburra,0.90
+2026-10-08T18:43:21Z,pi2,Mammal,Grey-headed Flying Fox,0.84
+2026-10-08T19:02:06Z,pi6,Bird,Rainbow Lorikeet,0.93
+2026-10-08T19:20:37Z,pi2,Bird,Superb Fairywren,0.91
+2026-10-08T19:39:48Z,pi6,Amphibian,Common Eastern Froglet,0.81
+2026-10-08T20:04:15Z,pi2,Bird,Sulphur-crested Cockatoo,0.95
+2026-10-08T20:22:09Z,pi6,Bird,Australian Magpie,0.90
+2026-10-08T20:41:33Z,pi2,Mammal,Common Brushtail Possum,0.85
+2026-10-08T21:03:27Z,pi6,Bird,Noisy Miner,0.88
+2026-10-08T21:24:51Z,pi2,Bird,Rainbow Lorikeet,0.91
+2026-10-08T21:47:13Z,pi6,Mammal,Grey-headed Flying Fox,0.87
+2026-10-08T22:06:42Z,pi2,Bird,Laughing Kookaburra,0.89
+2026-10-08T22:28:18Z,pi6,Bird,Australian Magpie,0.92
+2026-10-08T22:49:55Z,pi2,Insect,Cicada,0.80
+2026-10-08T23:09:31Z,pi6,Bird,Sulphur-crested Cockatoo,0.94
+2026-10-08T23:32:14Z,pi2,Bird,Superb Fairywren,0.90
+2026-10-08T23:51:48Z,pi6,Mammal,Common Brushtail Possum,0.83

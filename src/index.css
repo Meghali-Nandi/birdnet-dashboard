@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 全局隐藏滚动条（Chrome/Safari/Edge） */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* 全局隐藏滚动条（Firefox） */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+html {
+  scroll-behavior: smooth;
+}
