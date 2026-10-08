@@ -22,66 +22,97 @@ import Error from './pages/Error'
 import LoginPage from './pages/LoginPage'
 import PublicDashboard from './pages/PublicDashboard'
 
-const router = createBrowserRouter([
+
+const routes = [
   {
     path: '/',
     element: <PublicDashboard />,
   },
+
   {
     path: '/login',
     element: <LoginPage />,
   },
+
   {
     path: '/app',
     element: <AppLayout />,
+
     children: [
       {
         index: true,
         element: <Dashboard />,
       },
+
       {
         path: 'dashboard',
         element: <Dashboard />,
       },
+
       {
         path: 'devices',
         element: <Devices />,
       },
+
       {
         path: 'model',
         element: <Model />,
       },
+
       {
         path: 'species',
         element: <Species />,
       },
+
       {
         path: 'map',
         element: <Map />,
       },
+
       {
         path: 'timeline',
         element: <Timeline />,
       },
+
       {
         path: 'recordings',
         element: <Recordings />,
       },
+
       {
         path: 'analysis',
         element: <Analysis />,
       },
+
       {
         path: 'admin',
         element: <Admin />,
       },
+
       {
         path: '*',
         element: <Error />,
       },
     ],
   },
-])
+]
+
+
+const baseUrl = import.meta.env.BASE_URL
+
+const routerBasename =
+  baseUrl === '/'
+    ? '/'
+    : baseUrl.replace(/\/$/, '')
+
+
+const router = createBrowserRouter(
+  routes,
+  {
+    basename: routerBasename,
+  }
+)
+
 
 createRoot(
   document.getElementById('root')
