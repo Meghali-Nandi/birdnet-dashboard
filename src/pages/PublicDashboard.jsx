@@ -1,5 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react"
 import Papa from "papaparse"
+import Lottie from "lottie-react"
+import animationData from "../assets/logo.json"
 
 import {
 
@@ -1552,13 +1554,27 @@ export default function PublicDashboard() {
 
 
           {loading ? (
+            <div className="flex min-h-[70vh] flex-col items-center justify-center">
+              <Lottie
+                animationData={animationData}
+                loop
+                autoplay
+                className="h-72 w-72 sm:h-80 sm:w-80"
+                style={{
+                  background: "transparent",
+                }}
+              />
 
-            <div className="rounded-2xl bg-white p-12 text-center text-sm text-slate-500 shadow-sm">
+              <div className="-mt-8 text-center">
+                <h2 className="text-lg font-extrabold text-slate-900">
+                  Loading BowerBird data
+                </h2>
 
-              Loading BowerBird data...
-
+                <p className="mt-1 text-sm text-slate-500">
+                  Fetching the latest detections...
+                </p>
+              </div>
             </div>
-
           ) : (
 
             <>
