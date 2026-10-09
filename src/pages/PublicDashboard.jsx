@@ -1,5 +1,4 @@
 import { useCallback, useEffect, useMemo, useState } from "react"
-import { useNavigate } from "react-router-dom"
 import Papa from "papaparse"
 
 import {
@@ -47,18 +46,7 @@ import {
   UserRound
 } from "lucide-react"
 
-const navigate = useNavigate()
 
-const ADMIN_URL = import.meta.env.VITE_ADMIN_URL
-
-const handleAdminLogin = () => {
-  if (ADMIN_URL) {
-    window.location.assign(ADMIN_URL)
-    return
-  }
-
-  navigate("/login")
-}
 
 const CLASS_META = {
 
@@ -395,30 +383,24 @@ function EmptyState({ message }) {
 export default function PublicDashboard() {
 
   const [rows, setRows] = useState([])
-
   const [loading, setLoading] = useState(true)
-
   const [error, setError] = useState("")
-
   const [refreshToken, setRefreshToken] = useState(0)
 
-
-
   const [dateRange, setDateRange] = useState("Last 24 hours")
-
   const [frequency, setFrequency] = useState("Hourly")
-
   const [animalClass, setAnimalClass] = useState("All types")
-
   const [device, setDevice] = useState("All devices")
-
   const [confidence, setConfidence] = useState(0.7)
-
   const [search, setSearch] = useState("")
 
+  const ADMIN_URL =
+    import.meta.env.VITE_ADMIN_URL ||
+    "http://localhost:5173/login"
 
-
-  const ADMIN_URL = import.meta.env.VITE_ADMIN_URL || "http://localhost:5173/login"
+  const handleAdminLogin = () => {
+    window.location.assign(ADMIN_URL)
+  }
 
 
 
@@ -1094,26 +1076,14 @@ export default function PublicDashboard() {
 
 
 
-        <button
-
-          type="button"
-
-          // onClick={() =>
-
-          //   window.location.assign(ADMIN_URL)
-
-          // }
-          onClick={handleAdminLogin}
-
-          className="flex items-center gap-2 rounded-xl bg-[#FFD400] px-4 py-2.5 text-sm font-bold text-slate-950 shadow-sm transition hover:bg-yellow-300"
-
-        >
-
-          <LogIn size={17} />
-
-          Admin
-
-        </button>
+      <button
+        type="button"
+        onClick={handleAdminLogin}
+        className="flex items-center gap-2 rounded-xl bg-[#FFD400] px-4 py-2.5 text-sm font-bold text-slate-950 shadow-sm transition hover:bg-yellow-300"
+      >
+        <LogIn size={17} />
+        Admin
+      </button>
 
       </header>
 
